@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Todo MVC - Práctica</title>
+    <link rel="stylesheet" href="src/styles/styles.css" />
+  </head>
+  <body>
+    <main id="app" class="container">
+      <h1>Todo - MVC</h1>
+      <section id="todo-app">
+        <form id="new-todo-form">
+          <input id="new-todo-input" placeholder="Añadir tarea" />
+          <button type="submit">Agregar</button>
+        </form>
+        <ul id="todo-list"></ul>
+      </section>
+    </main>
+
+    <script type="module" src="src/controllers/TodoController.js"></script>
+  </body>
+</html>

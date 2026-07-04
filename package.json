@@ -1,0 +1,15 @@
+{
+  "name": "mi-proyecto",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1"
+  },
+  "description": "Estructura inicial del proyecto (MVC, JavaScript frontend).",
+  "main": "jest.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

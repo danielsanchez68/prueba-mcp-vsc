@@ -1,0 +1,16 @@
+:root{
+  --bg: #f7f7f7;
+  --card: #fff;
+  --accent: #2b6cb0;
+}
+*{box-sizing:border-box}
+body{font-family:Segoe UI, Roboto, Arial, sans-serif;background:var(--bg);margin:0;padding:24px}
+.container{max-width:720px;margin:0 auto}
+#todo-app{background:var(--card);padding:16px;border-radius:6px;box-shadow:0 1px 3px rgba(0,0,0,.06)}
+form{display:flex;gap:8px;margin-bottom:12px}
+input#new-todo-input{flex:1;padding:8px;border:1px solid #ddd;border-radius:4px}
+button{background:var(--accent);color:#fff;border:none;padding:8px 12px;border-radius:4px}
+ul#todo-list{list-style:none;padding:0;margin:0}
+ul#todo-list li{display:flex;align-items:center;justify-content:space-between;padding:8px;border-bottom:1px solid #eee}
+ul#todo-list li.done .text{text-decoration:line-through;color:#888}
+.remove{background:transparent;color:#c53030;border:0}
